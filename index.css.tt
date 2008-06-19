@@ -5,15 +5,15 @@
 }
 
 fieldset {
-    background-color: #115;
+    background-color: #445;
     color: white;
     margin-bottom: 0.5em;
-    border: 2px solid #79a;
+    border: 5px solid #334;
 }
 
 legend {
-    color: black;
-    background-color: #79a;
+    color: #ccc;
+    background-color: #335;
     padding: 0 0.3em;
     font-family: arial, sans-serif;
     border: 1px solid #777;
