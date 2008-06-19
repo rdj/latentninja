@@ -1,0 +1,262 @@
+---
+-
+  - group_name: search
+    links:
+      - name: google
+        uri: http://www.google.com/
+      - name: local
+        uri: http://local.google.com/
+      - name: wiki
+        uri: http://en.wikipedia.org/
+  - group_name: names
+    links:
+      - name: tess
+        uri: http://tess2.uspto.gov/bin/gate.exe?f=login&amp;p_lang=english&amp;p_d=trmk
+      - name: wadol
+        uri: https://fortress.wa.gov/dol/dolprod/bpdLicenseQuery/
+      - name: wador
+        uri: http://dor.wa.gov/content/doingbusiness/registermybusiness/brd/
+      - name: godaddy
+        uri: http://www.godaddy.com/
+  - group_name: lang
+    links:
+      - name: dict
+        uri: http://www.dictionary.com/
+      - name: thes
+        uri: http://www.thesaurus.com/
+      - name: mw
+        uri: http://www.m-w.com/
+      - name: jarg
+        uri: http://www.tf.hut.fi/cgi-bin/jargon
+  - group_name: resize
+    links:
+      - name: 640x480
+        uri: 'javascript:resizeTo(640,480)'
+      - name: 800x600
+        uri: 'javascript:resizeTo(800,600)'
+      - name: 1024x768
+        uri: 'javascript:resizeTo(1024,768)'
+      - name: 1280x1024
+        uri: 'javascript:resizeTo(1280,1024)'
+-
+  - group_name: web
+    links:
+      - name: html4
+        uri: http://www.w3.org/TR/html4/
+      - name: xhtml1
+        uri: http://www.w3.org/TR/xhtml1/
+      - name: css2
+        uri: http://www.w3.org/TR/REC-CSS2
+      - name: json
+        uri: http://json.org/
+      - name: gotapi
+        uri: http://www.gotapi.com/
+      - name: YUI
+        uri: http://developer.yahoo.com/yui/
+      - name: ptype
+        uri: http://www.prototypejs.org/api
+      - name: →script
+        uri: http://wiki.script.aculo.us/scriptaculous/
+  - group_name: webxtra
+    links:
+      - name: quirks
+        uri: http://www.quirksmode.org/resources.html
+      - name: ALA
+        uri: http://www.alistapart.com/
+      - name: pie
+        uri: http://www.positioniseverything.net/
+  - group_name: webval
+    links:
+      - name: valw3c
+        uri: http://validator.w3.org/
+      - name: vr-w3clh
+        uri: javascript:window.open('http://localhost/w3c-validator/check?uri='+escape(window.location));void%200
+      - name: vr-w3c
+        uri: javascript:window.open('http://validator.w3.org/check?uri='+escape(window.location));void%200
+      - name: valcss
+        uri: http://jigsaw.w3.org/css-validator/
+      - name: jslint
+        uri: http://www.jslint.com/
+-
+  - group_name: spec
+    links:
+      - name: w3c
+        uri: http://www.w3.org/Help/siteindex
+      - name: ietf
+        uri: http://www.ietf.org/rfc.html
+      - name: oasis
+        uri: http://oasis-open.org/
+      - name: iana
+        uri: http://www.iana.org/
+      - name: msdn
+        uri: http://msdn.microsoft.com/
+  - group_name: refxml
+    links:
+      - name: xsd1
+        uri: http://www.w3.org/TR/xmlschema-1/
+      - name: xsd2
+        uri: http://www.w3.org/TR/xmlschema-2/
+      - name: dsig
+        uri: http://www.w3.org/TR/xmldsig-core/
+      - name: xenc
+        uri: http://www.w3.org/TR/xmlenc-core/
+      - name: xpath
+        uri: http://www.w3.org/TR/xpath
+-
+  - group_name: media
+    links:
+      - name: netflix
+        uri: http://www.netflix.com/
+      - name: imdb
+        uri: http://www.imdb.com/
+      - name: kcls
+        uri: http://www.kcls.org/?sec1=0016659815
+  - group_name: movies
+    links:
+      - name: rt
+        uri: http://www.rottentomatoes.com/
+      - name: mc
+        uri: http://www.metacritic.com/film
+      - name: ebert
+        uri: http://www.suntimes.com/index/ebert1.html
+      - name: jb
+        uri: http://www.reelviews.net/movies.html
+      - name: aicn
+        uri: http://www.aint-it-cool-news.com/
+  - group_name: rip
+    links:
+      - name: adawn
+        uri: http://www.afterdawn.com/software/
+      - name: doom9
+        uri: http://www.doom9.org/software.htm
+      - name: asta
+        uri: http://astalavista.box.sk/
+      - name: gcw
+        uri: http://www.gamecopyworld.com/
+  - group_name: htpc
+    links:
+      - name: avs
+        uri: http://www.avsforum.com/
+      - name: greenb
+        uri: http://www.thegreenbutton.com/
+      - name: zoom
+        uri: http://www.inmatrix.com/files/zoomplayer_download.shtml
+      - name: webguide
+        uri: http://www.asciiexpress.com/webguide/
+      - name: dvrms
+        uri: http://babgvant.com/files/folders/dvrmstoolbox/default.aspx
+-
+  - group_name: shopping
+    links:
+      - name: newegg
+        uri: http://www.newegg.com/
+      - name: amazon
+        uri: http://www.amazon.com/
+      - name: →wishlist
+        uri: http://amazon.com/gp/registry/1WPP0R4SN6CS6
+      - name: thinkgeek
+        uri: http://www.thinkgeek.com/
+      - name: sheetmusic
+        uri: http://www.sheetmusicplus.com/
+  - group_name: deals
+    links:
+      - name: bbargains
+        uri: http://www.bensbargains.net/
+      - name: sdeals
+        uri: http://slickdeals.net/
+      - name: pricewatch
+        uri: http://www.pricewatch.com/
+      - name: rratings
+        uri: http://www.resellerratings.com/
+  - group_name: forsale
+    links:
+      - name: eBay
+        uri: http://www.ebay.com/
+      - name: uBid
+        uri: http://www.ubid.com/
+      - name: craigslist
+        uri: http://seattle.craigslist.org/
+      - name: expo
+        uri: http://expo.live.com/
+  - group_name: games
+    links:
+      - name: gamefaqs
+        uri: http://www.gamefaqs.com/
+      - name: rhp
+        uri: http://www.redhotpawn.com/mygames/mygames.php
+      - name: catan
+        uri: http://games.asobrain.com/play2/index.php
+      - name: ycross
+        uri: http://games.yahoo.com/games/cw.hf2k
+      - name: nytcross
+        uri: http://www.nytimes.com/packages/html/crossword/classicpuz.html
+-
+  - group_name: haha
+    links:
+      - name: mt
+        uri: http://www.megatokyo.com/
+      - name: pa
+        uri: http://www.penny-arcade.com/comic
+      - name: pvp
+        uri: http://www.pvponline.com/
+      - name: sb
+        uri: http://www.homestarrunner.com/sbemail.html
+  - group_name: news
+    links:
+      - name: sea
+        uri: http://www.seattletimes.com/
+      - name: cnn
+        uri: http://www.cnn.com/
+      - name: nyt
+        uri: http://www.nytimes.com/
+      - name: weather
+        uri: http://www.weather.com/weather/local/98021
+-
+  - group_name: ms
+    links:
+      - name: msmail
+        uri: https://mail.windows.microsoft.com
+      - name: ras
+        uri: https://remote.team.partners.extranet.microsoft.com/ras.aspx
+      - name: ts
+        uri: https://redmondts.microsoft.com
+      - name: im
+        uri: https://im.microsoft.com/
+      - name: store
+        uri: https://shop.ecompanystore.com/microsoft/mic_adfs_login.aspx
+  - group_name: feeds
+    links:
+      - name: rss
+        uri: http://reader.google.com/
+      - name: lj
+        uri: http://www.livejournal.com/users/tekman/friends
+  - group_name: mail
+    links:
+      - name: gmail
+        uri: https://gmail.google.com/gmail
+      - name: hotmail
+        uri: http://www.hotmail.com/
+      - name: csmail
+        uri: https://mail.cs.rose-hulman.edu/
+      - name: yahoo
+        uri: https://mail.yahoo.com/
+      - name: gambit
+        uri: http://mail.gambitdesign.com/
+  - group_name: $$$
+    links:
+      - name: fidelity
+        uri: https://www.fidelity.com/
+      - name: 1sttech
+        uri: https://www.firsttechcu.com/
+      - name: ing
+        uri: https://secure.ingdirect.com/
+      - name: hsbc
+        uri: https://www.hsbcdirect.com/
+      - name: smithb
+        uri: https://benefits.smithbarney.com/
+      - name: paypal
+        uri: https://www.paypal.com/
+  - group_name: hosting
+    links:
+      - name: gambit
+        uri: https://server3.gambitdesign.com:8443/

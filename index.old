@@ -1,0 +1,248 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"><title>Links</title>
+
+<style type="text/css">
+body{color:#ccbb77;font-family:consolas,"lucida console",monospace;background:#005;font-size:14px;}
+a{display:block;text-decoration:none;}
+a:link{color:#0ff;}
+a:hover{background-color:#633;text-decoration:underline;}
+/*a:visited{color:#099;}*/
+a:visited{color:#0ff;}
+a:active{color:#0f0;}
+div.c{float:left;clear:none;margin-right:20px;}
+div.l{float:left;clear:both;margin-bottom:1em;}
+div.l a{float:left;clear:both;}
+</style></head><body>
+
+<div class="c">
+
+<div class="l">
+search
+<a href="http://www.google.com/">google</a>
+<a href="http://local.google.com/">local</a>
+<a href="http://en.wikipedia.org/">wiki</a>
+</div>
+
+<div class="l">
+names
+<a href="http://tess2.uspto.gov/bin/gate.exe?f=login&amp;p_lang=english&amp;p_d=trmk">tess</a>
+<a href="https://fortress.wa.gov/dol/dolprod/bpdLicenseQuery/">wadol</a>
+<a href="http://dor.wa.gov/content/doingbusiness/registermybusiness/brd/">wador</a>
+<a href="http://www.godaddy.com/">godaddy</a>
+</div>
+
+<div class="l">
+lang
+<a href="http://www.dictionary.com/">dict</a>
+<a href="http://www.thesaurus.com/">thes</a>
+<a href="http://www.m-w.com/">mw</a>
+<a href="http://www.tf.hut.fi/cgi-bin/jargon">jarg</a>
+</div>
+
+<div class="l">
+resize
+<a href="javascript:resizeTo(640,480)">640x480</a>
+<a href="javascript:resizeTo(800,600)">800x600</a>
+<a href="javascript:resizeTo(1024,768)">1024x768</a>
+<a href="javascript:resizeTo(1280,1024)">1280x1024</a>
+</div>
+
+</div>
+
+<div class="c">
+
+<div class="l">
+web
+<a href="http://www.w3.org/TR/html4/">html4</a>
+<a href="http://www.w3.org/TR/xhtml1/">xhtml1</a>
+<a href="http://www.w3.org/TR/REC-CSS2">css2</a>
+<a href="http://json.org/">json</a>
+<a href="http://www.gotapi.com/">gotapi</a>
+<a href="http://developer.yahoo.com/yui/">YUI</a>
+<a href="http://www.prototypejs.org/api">ptype</a>
+<a href="http://wiki.script.aculo.us/scriptaculous/">→script</a>
+</div>
+
+<div class="l">
+webxtra
+<a href="http://www.quirksmode.org/resources.html">quirks</a>
+<a href="http://www.alistapart.com/">ALA</a>
+<a href="http://www.positioniseverything.net/">pie</a>
+</div>
+
+<div class="l">
+webval
+<a href="http://validator.w3.org/">valw3c</a>
+<a href="javascript:window.open('http://localhost/w3c-validator/check?uri='+escape(window.location));void%200">vr-w3clh</a>
+<a href="javascript:window.open('http://validator.w3.org/check?uri='+escape(window.location));void%200">vr-w3c</a>
+<a href="http://jigsaw.w3.org/css-validator/">valcss</a>
+<a href="http://www.jslint.com/">jslint</a>
+</div>
+
+</div>
+
+<div class="c">
+
+<div class="l">
+spec
+<a href="http://www.w3.org/Help/siteindex">w3c</a>
+<a href="http://www.ietf.org/rfc.html">ietf</a>
+<a href="http://oasis-open.org/">oasis</a>
+<a href="http://www.iana.org/">iana</a>
+<a href="http://msdn.microsoft.com/">msdn</a>
+</div>
+
+<div class="l">
+refxml
+<a href="http://www.w3.org/TR/xmlschema-1/">xsd1</a>
+<a href="http://www.w3.org/TR/xmlschema-2/">xsd2</a>
+<a href="http://www.w3.org/TR/xmldsig-core/">dsig</a>
+<a href="http://www.w3.org/TR/xmlenc-core/">xenc</a>
+<a href="http://www.w3.org/TR/xpath">xpath</a>
+</div>
+
+</div>
+
+<div class="c">
+
+<div class="l">
+media
+<a href="http://www.netflix.com/">netflix</a>
+<a href="http://www.imdb.com/">imdb</a>
+<a href="http://www.kcls.org/?sec1=0016659815">kcls</a>
+</div>
+
+
+<div class="l">
+movies
+<a href="http://www.rottentomatoes.com/">rt</a>
+<a href="http://www.metacritic.com/film">mc</a>
+<a href="http://www.suntimes.com/index/ebert1.html">ebert</a>
+<a href="http://www.reelviews.net/movies.html">jb</a>
+<a href="http://www.aint-it-cool-news.com/">aicn</a>
+</div> 
+
+<div class="l">
+rip
+<a href="http://www.afterdawn.com/software/">adawn</a>
+<a href="http://www.doom9.org/software.htm">doom9</a>
+<a href="http://astalavista.box.sk/">asta</a>
+<a href="http://www.gamecopyworld.com/">gcw</a>
+</div>
+
+<div class="l">
+htpc
+<a href="http://www.avsforum.com/">avs</a>
+<a href="http://www.thegreenbutton.com/">greenb</a>
+<a href="http://www.inmatrix.com/files/zoomplayer_download.shtml">zoom</a>
+<a href="http://www.asciiexpress.com/webguide/">webguide</a>
+<a href="http://babgvant.com/files/folders/dvrmstoolbox/default.aspx">dvrms</a>
+</div> 
+
+</div>
+
+<div class="c">
+
+<div class="l">
+shopping
+<a href="http://www.newegg.com/">newegg</a>
+<a href="http://www.amazon.com/">amazon</a>
+<a href="http://amazon.com/gp/registry/1WPP0R4SN6CS6">→wishlist</a>
+<a href="http://www.thinkgeek.com/">thinkgeek</a>
+<a href="http://www.sheetmusicplus.com/">sheetmusic</a>
+</div>
+
+<div class="l">
+deals
+<a href="http://www.bensbargains.net/">bbargains</a>
+<a href="http://slickdeals.net/">sdeals</a>
+<a href="http://www.pricewatch.com/">pricewatch</a>
+<a href="http://www.resellerratings.com/">rratings</a>
+</div>
+
+<div class="l">
+forsale
+<a href="http://www.ebay.com/">eBay</a>
+<a href="http://www.ubid.com/">uBid</a>
+<a href="http://seattle.craigslist.org/">craigslist</a>
+<a href="http://expo.live.com/">expo</a>
+</div>
+
+<div class="l">
+games
+<a href="http://www.gamefaqs.com/">gamefaqs</a>
+<a href="http://www.redhotpawn.com/mygames/mygames.php">rhp</a>
+<a href="http://games.asobrain.com/play2/index.php">catan</a>
+<a href="http://games.yahoo.com/games/cw.hf2k">ycross</a>
+<a href="http://www.nytimes.com/packages/html/crossword/classicpuz.html">nytcross</a>
+</div>
+
+</div>
+
+<div class="c">
+
+<div class="l">
+haha
+<a href="http://www.megatokyo.com/">mt</a>
+<a href="http://www.penny-arcade.com/comic">pa</a>
+<a href="http://www.pvponline.com/">pvp</a>
+<a href="http://www.homestarrunner.com/sbemail.html">sb</a>
+</div>
+
+<div class="l">
+news
+<a href="http://www.seattletimes.com/">sea</a>
+<a href="http://www.cnn.com/">cnn</a>
+<a href="http://www.nytimes.com/">nyt</a>
+<a href="http://www.weather.com/weather/local/98021">weather</a>
+</div>
+
+</div>
+
+<div class="c">
+
+<!--div class="l">
+ms
+<a href="https://mail.windows.microsoft.com">msmail</a>
+<a href="https://remote.team.partners.extranet.microsoft.com/ras.aspx">ras</a>
+<a href="https://redmondts.microsoft.com">ts</a>
+<a href="https://im.microsoft.com/">im</a>
+<a href="https://shop.ecompanystore.com/microsoft/mic_adfs_login.aspx">store</a>
+</div-->
+
+<div class="l">
+feeds
+<a href="http://reader.google.com/">rss</a>
+<a href="http://www.livejournal.com/users/tekman/friends">lj</a>
+</div>
+
+<div class="l">
+mail
+<a href="https://gmail.google.com/gmail">gmail</a>
+<a href="http://www.hotmail.com/">hotmail</a>
+<a href="https://mail.cs.rose-hulman.edu/">csmail</a>
+<a href="https://mail.yahoo.com/">yahoo</a>
+<a href="http://mail.gambitdesign.com/">gambit</a>
+</div>
+
+<div class="l">
+$$$
+<a href="https://www.fidelity.com/">fidelity</a>
+<a href="https://www.firsttechcu.com/">1sttech</a>
+<a href="https://secure.ingdirect.com/">ing</a>
+<a href="https://www.hsbcdirect.com/">hsbc</a>
+<a href="https://benefits.smithbarney.com/">smithb</a>
+<a href="https://www.paypal.com/">paypal</a>
+</div>
+
+<div class="l">
+hosting
+<a href="https://server3.gambitdesign.com:8443/">gambit</a>
+</div>
+
+</div>
+
+</body></html>

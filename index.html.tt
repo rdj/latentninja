@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Startup Links for Ryan D Johnson</title>
+<style type="text/css">
+[%+ INCLUDE index.css.tt +%]
+</style>
+</head><body>
+[% FOREACH column = link_columns %]
+  <div class="c">
+    [% FOREACH link_group IN column %]
+      <fieldset><legend>[% link_group.group_name %]</legend><ul>
+        [% FOREACH link IN link_group.links %]
+          <li><a href="[% link.uri %]">[% link.name %]</a></li>
+        [% END %]
+      </ul></fieldset>
+    [% END %]
+  </div>
+[% END %]
+</body></html>
