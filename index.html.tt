@@ -9,11 +9,11 @@
 [% FOREACH column = link_columns %]
   <div class="c">
     [% FOREACH link_group IN column %]
-      <fieldset><legend>[% link_group.group_name %]</legend><ul>
+      <div class="g"><div class="l">[% link_group.group_name %]</div><ul>
         [% FOREACH link IN link_group.links %]
           <li><a href="[% link.uri %]">[% link.name %]</a></li>
         [% END %]
-      </ul></fieldset>
+      </ul></div>
     [% END %]
   </div>
 [% END %]

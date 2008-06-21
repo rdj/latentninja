@@ -212,18 +212,18 @@
       - name: weather
         uri: http://www.weather.com/weather/local/98021
 -
-  - group_name: ms
-    links:
-      - name: msmail
-        uri: https://mail.windows.microsoft.com
-      - name: ras
-        uri: https://remote.team.partners.extranet.microsoft.com/ras.aspx
-      - name: ts
-        uri: https://redmondts.microsoft.com
-      - name: im
-        uri: https://im.microsoft.com/
-      - name: store
-        uri: https://shop.ecompanystore.com/microsoft/mic_adfs_login.aspx
+#   - group_name: ms
+#     links:
+#       - name: msmail
+#         uri: https://mail.windows.microsoft.com
+#       - name: ras
+#         uri: https://remote.team.partners.extranet.microsoft.com/ras.aspx
+#       - name: ts
+#         uri: https://redmondts.microsoft.com
+#       - name: im
+#         uri: https://im.microsoft.com/
+#       - name: store
+#         uri: https://shop.ecompanystore.com/microsoft/mic_adfs_login.aspx
   - group_name: feeds
     links:
       - name: rss

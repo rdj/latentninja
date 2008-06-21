@@ -1,27 +1,33 @@
 .c {
     float: left;
     clear: none;
-    width: [% 100 / column_count %]%;
+    padding: 0 5px;
+    width: [% ( 100 / column_count ) - 1 %]%;
 }
 
-fieldset {
+.g {
     background-color: #445;
-    color: white;
     margin-bottom: 0.5em;
-    border: 5px solid #334;
+    padding-bottom: 0.5em;
 }
 
-legend {
-    color: #ccc;
+.l {
     background-color: #335;
-    padding: 0 0.3em;
+    color: #ccc;
     font-family: arial, sans-serif;
-    border: 1px solid #777;
+    margin-bottom: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    width: 100%;
 }
 
 a {
-    color: inherit;
+    color: white;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 body {
@@ -34,8 +40,10 @@ body {
 
 ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
+    padding-left: 10px;
     list-style-type: none;
+    line-height: 1.3em;
 }
 
 li {
