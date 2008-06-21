@@ -1,8 +1,9 @@
+[% SET column_width = ( 95 div column_count ) %]
 .c {
     float: left;
     clear: none;
     padding: 0 5px;
-    width: [% ( 100 / column_count ) - 1 %]%;
+    width: [% column_width %]%;
 }
 
 .g {
@@ -31,10 +32,10 @@ a:hover {
 }
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     padding-top: 1em;
-    width: 100%;
+    width: [% column_width * column_count %]%;
     background-color: #334;
 }
 
