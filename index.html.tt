@@ -17,4 +17,13 @@
     [% END %]
   </div>
 [% END %]
+<input type="text" id="focus_me">
+<script type="text/javascript">
+( function () {
+    focus_me = document.getElementById('focus_me');
+    focus_me.focus();
+    focus_me.blur();
+    focus_me.parentNode.removeChild( focus_me );
+} )();
+</script>
 </body></html>
