@@ -11,7 +11,7 @@ use YAML ();
 my %file_for = (
     data    => 'index.yml',
     input   => 'index.html.tt',
-    output  => 'index.html',
+    output  => 'public/index.html',
 );
 
 for my $file ( keys %file_for ) {
