@@ -16,8 +16,6 @@
         uri: https://fortress.wa.gov/dol/dolprod/bpdLicenseQuery/
       - name: wador
         uri: http://dor.wa.gov/content/doingbusiness/registermybusiness/brd/
-      - name: godaddy
-        uri: http://www.godaddy.com/
   - group_name: lang
     links:
       - name: dict
@@ -105,8 +103,12 @@
 -
   - group_name: media
     links:
+      - name: hulu
+        uri: http://www.hulu.com/
       - name: netflix
         uri: http://www.netflix.com/
+      - name: youtube
+        uri: http://www.youtube.com/
       - name: imdb
         uri: http://www.imdb.com/
       - name: kcls
@@ -238,29 +240,27 @@
     links:
       - name: gmail
         uri: https://gmail.google.com/gmail
-      - name: hotmail
-        uri: http://www.hotmail.com/
-      - name: csmail
-        uri: https://mail.cs.rose-hulman.edu/
-      - name: yahoo
-        uri: https://mail.yahoo.com/
-      - name: gambit
-        uri: http://mail.gambitdesign.com/
+      - name: innerfence
+        uri: http://mail.innerfence.com
+      - name: latentninja
+        uri: http://mail.latentninja.com
   - group_name: $$$
     links:
       - name: fidelity
         uri: https://www.fidelity.com/
-      - name: 1sttech
-        uri: https://www.firsttechcu.com/
       - name: ing
         uri: https://secure.ingdirect.com/
       - name: hsbc
         uri: https://www.hsbcdirect.com/
-      - name: smithb
-        uri: https://benefits.smithbarney.com/
       - name: paypal
         uri: https://www.paypal.com/
   - group_name: hosting
     links:
-      - name: gambit
-        uri: https://server3.gambitdesign.com:8443/
+      - name: godaddy
+        uri: http://www.godaddy.com/
+      - name: zerigo
+        uri: http://www.zerigo.com/
+      - name: heroku
+        uri: http://www.heroku.com/
+      - name: aws
+        uri: http://aws.amazon.com/
