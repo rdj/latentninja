@@ -212,7 +212,11 @@
       - name: nyt
         uri: http://www.nytimes.com/
       - name: weather
-        uri: http://www.weather.com/weather/local/98021
+        uri: 'http://forecast.weather.gov/MapClick.php?CityName=Bothell&state=WA&site=SEW&lat=47.7948&lon=-122.205'
+  - group_name: biz
+    links:
+      - name: iPhone Credit Card Reader
+        uri: http://www.innerfence.com/apps/credit-card-terminal/swipe-reader
 -
 #   - group_name: ms
 #     links:
