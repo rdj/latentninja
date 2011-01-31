@@ -32,5 +32,5 @@ my $template = Template->new({
     POST_CHOMP => 1,
 });
 
-$template->process( $file_for{input}, \%vars, $file_for{output} )
+$template->process( $file_for{input}, \%vars, $file_for{output}, binmode => ':utf8' )
     or die $template->error();
