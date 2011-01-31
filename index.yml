@@ -217,6 +217,8 @@
     links:
       - name: iPhone Credit Card Reader
         uri: http://www.innerfence.com/apps/credit-card-terminal/swipe-reader
+      - name: s3vars.sh
+        uri: https://gist.github.com/453419
 -
 #   - group_name: ms
 #     links:
