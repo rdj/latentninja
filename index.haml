@@ -1,0 +1,17 @@
+!!! 5
+%html( lang="en" )
+  %head
+    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    %title Startup Links for Ryan D Johnson
+    :css
+      #{raw_css}
+  %body
+    - link_columns.each do |column|
+      .c
+        - column.each do |link_group|
+          .g
+            .l= link_group['group_name']
+            %ul
+              - link_group['links'].each do |link|
+                %li
+                  %a{ href: link['uri'] }= link['name']

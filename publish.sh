@@ -1,9 +1,17 @@
 #!/bin/bash
 
-. $(dirname $0)/s3vars.sh
+if [[ ! -x $(which aws) ]]; then
+    echo "Requires AWS cli (brew install aws)" 1>&2
+    exit 1
+fi
 
-SOURCE=$(dirname $0)/public/
 BUCKET=www.latentninja.com
-DEST=/
+export AWS_DEFAULT_REGION=us-east-1
 
-s3sync -p -r --expires="Mon, 09 Dec 2019 04:45:17 GMT" --cache-control="max-age=311040000" --progress ${SOURCE} ${BUCKET}:${DEST}
+SRC=$(dirname $0)/public/
+DST=/
+
+source $(dirname $0)/s3vars.sh
+
+aws s3 sync public s3://${BUCKET}/ --exclude .gitkeep
+

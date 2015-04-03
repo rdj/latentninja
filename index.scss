@@ -1,9 +1,10 @@
-[% SET column_width = ( 95 div column_count ) %]
+$column_width: floor( 95 / $column_count );
+
 .c {
     float: left;
     clear: none;
     padding: 0 5px;
-    width: [% column_width %]%;
+    width: percentage( $column_width * 0.01 );
 }
 
 .g {
@@ -35,7 +36,7 @@ body {
     margin: auto;
     padding: 0;
     padding-top: 1em;
-    width: [% column_width * column_count %]%;
+    width: percentage( $column_width * $column_count * 0.01 );
     background-color: #334;
 }
 

@@ -220,24 +220,10 @@
       - name: s3vars.sh
         uri: https://gist.github.com/453419
 -
-#   - group_name: ms
-#     links:
-#       - name: msmail
-#         uri: https://mail.windows.microsoft.com
-#       - name: ras
-#         uri: https://remote.team.partners.extranet.microsoft.com/ras.aspx
-#       - name: ts
-#         uri: https://redmondts.microsoft.com
-#       - name: im
-#         uri: https://im.microsoft.com/
-#       - name: store
-#         uri: https://shop.ecompanystore.com/microsoft/mic_adfs_login.aspx
   - group_name: feeds
     links:
       - name: rss
-        uri: http://reader.google.com/
-      - name: lj
-        uri: http://www.livejournal.com/users/tekman/friends
+        uri: http://feedly.com
       - name: facebook
         uri: http://www.facebook.com
       - name: twitter
