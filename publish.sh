@@ -13,5 +13,5 @@ DST=/
 
 source $(dirname $0)/s3vars.sh
 
-aws s3 sync public s3://${BUCKET}/ --exclude .gitkeep
+aws s3 sync public s3://${BUCKET}/ --exclude .gitkeep --exclude \*.key --exclude \*.pem --exclude \*.crt --exclude mkcert
 
