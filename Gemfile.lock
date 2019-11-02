@@ -3,15 +3,17 @@ GEM
   specs:
     daemons (1.2.2)
     eventmachine (1.0.7)
-    haml (4.0.6)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     rack (1.6.0)
     sass (3.4.13)
+    temple (0.8.2)
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
       rack (~> 1.0)
-    tilt (2.0.1)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
