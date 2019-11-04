@@ -15,7 +15,7 @@ task :default do
   raw_css = sass.render
 
   haml_input = File.read('index.haml')
-  haml = Haml::Engine.new( haml_input, ugly: true, remove_whitespace: true )
+  haml = Haml::Engine.new( haml_input, remove_whitespace: true )
   raw_html = haml.render( Object.new, { link_columns: config, raw_css: raw_css } )
 
   File.open( 'public/index.html', 'w' ) do |f|
