@@ -25,6 +25,7 @@ GEM
     tilt (2.0.10)
 
 PLATFORMS
+  arm64-darwin-20
   x86_64-darwin-20
 
 DEPENDENCIES
@@ -34,4 +35,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   2.2.15
+   2.2.24
