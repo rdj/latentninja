@@ -28,6 +28,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-23
 
 DEPENDENCIES
   haml
@@ -36,4 +37,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   2.4.19
+   2.5.9
